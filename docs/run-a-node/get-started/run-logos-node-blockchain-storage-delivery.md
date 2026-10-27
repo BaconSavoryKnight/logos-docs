@@ -17,6 +17,8 @@ sidebar_position: 1
 
 :::tip[Version]
 This document is accurate for **Testnet v0.3**.
+
+This document is for running a **full node** from the CLI. To run **just the blockchain node**, see [this document](../../blockchain/get-started/run-a-logos-blockchain-node-from-cli.md). For running a node through the graphical application see [this document](../../blockchain/get-started/run-a-logos-blockchain-node-from-basecamp.md)
 :::
 
 This procedure covers installing and running a single [Logos node](../../get-started/glossary.md#logos-node) via one `logosctl` session. `logosctl` starts and controls the node and manages the `blockchain_module`, `storage_module`, and `delivery_module` from within that session. It is intended for node operators who want to join the testnet and contribute to the Logos network. The steps assume a Linux host.
